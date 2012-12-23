@@ -4,7 +4,7 @@ libProfiler
 
 libProfiler is a tool to measure time taken by a code portion. It can help you improve code performance.
 It can be easily integrated in your toolchain, continuous integration,...
-It's implemented as only one C++ header file!
+It's implemented as only one multiplatform C++ header file! It works on Windows, Linux and MacOSX.
 As you define the granularity, it may be more usefull than great tools like Verysleepy. And it
 works well with debug info turned off and full optmisation turned on.
 Sadly, it uses STL (nobody's perfect)
