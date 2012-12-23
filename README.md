@@ -103,3 +103,5 @@ The second list is a flat one. Profiled block only appear once.
 Time unit is ms.
     
 This text is also present in libProfiler.h
+
+This has been possible thank to the work of Christophe Giraud and Maxime Houlier.
