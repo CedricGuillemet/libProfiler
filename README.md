@@ -72,6 +72,8 @@ Enable/disable profiling with USE_PROFILER.
 In one of your .cpp file, define LIB_PROFILER_IMPLEMENTATION or you'll have troubles linking.
 You can overide the default printf output redefining preprocessor LIB_PROFILER_PRINTF.
 The sample will output:
+
+
     Hello, World!
     v = -1530.3564
     v = -190.7513
@@ -92,6 +94,8 @@ The sample will output:
     Profiler:|      79.0000 |      79.0000 |      79.0000 |      79.0000 |      1 | Main
     Profiler:|      79.0000 |      39.5000 |      38.0000 |      41.0000 |      2 | myFunction
     Profiler:_______________________________________________________________________________________
+
+
 
 The first list correspond to the callstack ( with left spaced function name). You might see a
 a profiled block multiple time depending on where it was called.
